@@ -47,7 +47,7 @@ output wire [7:0] wr_data_out  <br>
 </p>  
 <br>  
 
-![Сообщение принято](./twice_task/image/receive_complete.png)
+![Сообщение принято](./Twice_task/image/receive_complete.png)
 
 <p>
 Сигналы COMM_W, ADD_W и DATA_W выставляются в уровень лог.1, когда этап записи параметров сообщения осуществлен успешно. Благодаря этим флагам осуществляется переход к записи других частей сообщения. <br>
@@ -56,14 +56,14 @@ output wire [7:0] wr_data_out  <br>
 </p>  
 <br>  
 
-![Развернутые временные диаграммы](./twice_task/image/all_diagramm.png)
+![Развернутые временные диаграммы](./Twice_task/image/all_diagramm.png)
 
 <p>
 Если принятая команда не соответсвует требуему значению на требуемом значении счетчика, то запись адреса и данных сообщения не производится.
 </p>  
 <br>  
 
-![Сообщение не принято](./twice_task/image/receive_not_complete.png)
+![Сообщение не принято](./Twice_task/image/receive_not_complete.png)
 
 
 
